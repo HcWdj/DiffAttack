@@ -1,5 +1,7 @@
 # DiffAttack: Evasion Attacks Against Diffusion-Based Adversarial Purification
 
+Implementation of [DiffAttack: Evasion Attacks Against Diffusion-Based Adversarial Purification](https://arxiv.org/abs/2311.16124) [NeurIPS 2023].
+
 Diffattack is a strong adversarial attack against diffusion-based purification defenses. We provide the following scripts for reproducing the results.
 
 ## Environment and Pretrained models
@@ -117,7 +119,7 @@ sh run_cifar_ddpm_l2_70.sh SEED1 SEED2
 
 ### Acknowledgement
 
-The code base is built upon [auto-attack](https://github.com/fra31/auto-attack) and [diffpure](https://github.com/NVlabs/DiffPure).
+The code base is built upon [Auto-Attack](https://github.com/fra31/auto-attack) and [DiffPure](https://github.com/NVlabs/DiffPure).
 
 If you consider our repo helpful, please consider citing:
 ```
